@@ -1,0 +1,5 @@
+[build]
+  buildCommand = "pip install --no-cache-dir -r requirements.txt"
+
+[install]
+  pkgs = ["python3", "gcc", "libjpeg", "zlib"]
